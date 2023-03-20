@@ -1,0 +1,168 @@
+body{
+    margin: auto;
+    background-color: #f7d5d5;
+}
+ header{
+    height: 50px;
+    background-color: rgb(232, 141, 141);
+}
+ h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+}
+ #icon{
+   float: left;
+   display: flex;
+}
+
+ #social{
+    float: right;
+    margin-right: 4%;
+}
+ 
+#login{
+    background-color:  #13e213;
+}
+#register{
+    background-color: #efefef;
+}
+#home{
+    background-color: #ffbebe;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* container css*/
+ .container{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 4%;
+    display: inline-block;
+ }
+
+  #filter{
+    height: 550px;
+    width: 20%;
+    border: 2px solid black;
+    margin-top:3% ;
+    margin-left: 11%;
+    float: left;
+    text-align: center;
+  }
+   h2{
+    font-size: 30px;
+   }
+   span{
+    font-size: 31px;
+    display: block;
+   }
+   #radio{
+      text-align: left;
+      margin-left: 30px;
+      margin-top: 7%;
+      font-size: 18px;
+   }
+   
+
+  #content{
+    width: 60%;
+    float: left;  
+    margin-top: 2%; 
+    margin-left: 4%;
+  }
+
+  .subcontent{
+    height:300px;
+    width: 90%;
+    margin-top: 1%;
+    box-shadow: -2px 4px 12px #870000;
+  }
+  .foodimg{
+       height: 260px;
+       width: 45%;
+       margin-left: 2%;
+       float: left;
+   }
+   .foodimg>img{
+    height: 100%;
+    width: 92%;
+    border-radius: 12%;
+   }
+
+   .foodimgdetail{
+    height: 300px;
+    width: 50%;
+    float: left;
+
+   }
+   .foodimgdetail>h2{
+    color: darkcyan;
+    font-size: 40px;
+    margin-top: 10px;
+   }
+
+   span1{
+    color: #ff0d0d;
+    font-size: 22px;
+   }
+   #breakfast{
+    background-color: green;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    border-radius: 10px;
+   }
+
+   #lunch{
+    background-color:rgb(8, 140, 185);
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+ #northindian{
+    background-color:rgb(229, 125, 40);
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 4%;
+    border-radius: 10px;
+ }
+ #fastfood{
+    background-color:rgb(124, 123, 121);
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 4%;
+    border-radius: 10px;
+ }
+ 
+
+/* footer */
+footer{
+    margin-top: 15px;
+    background-color: #6b1d1d;
+    color: white;
+    text-align: center;
+}
+#foottext{
+     font-size: 28px;
+}
+.footdiv{
+    height: 60px;
+    width: 33%;
+    display: inline-block;
+    border-right: 2px solid rgb(255, 243, 243);
+}
+.noborder{
+    border: none;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+}
+    
